@@ -1,0 +1,24 @@
+{
+  "src_directory": "src",
+  "output_directory": "html",
+  "run_once": false,
+  "initialization": true,
+  "init_dir_list": [
+    "WorkLog/202203"
+  ],
+  "pandoc_html_template": "article.tufte.template.html",
+  "index_html_template": "index.template.html",
+  "html_line_ending": "lf",
+  "tree_hide_dir_list": [
+    "data", "figure"
+  ],
+  "tree_show_file_ext_list": [
+    "html"
+  ],
+  "search_hide_dir_list": [
+    ".git"
+  ],
+  "avoid_copy_ext_list": [
+    "md~", "ps1"
+  ]
+}
